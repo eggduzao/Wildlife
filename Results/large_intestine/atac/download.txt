@@ -1,2 +1,0 @@
-ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX760/SRX760541/SRR1653776/SRR1653776.sra
-ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX760/SRX760542/SRR1653777/SRR1653777.sra

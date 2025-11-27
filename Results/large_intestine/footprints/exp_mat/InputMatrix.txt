@@ -1,3 +1,0 @@
-name	type	file	data	group
-HS	regions	/home/egg/Projects/Thorsten/Results/thorsten/large_intestine/atac/LI_ATAC_peaks.bed	HS	LI_ATAC
-ATAC	reads	/home/egg/Projects/Thorsten/Results/thorsten/large_intestine/atac/ATAC.bam	DNASE	LI_ATAC
