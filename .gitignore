@@ -1,36 +1,175 @@
-Results/hif/IGV_screenshots/
-Results/hif/IGV_screenshots_LI/
-Results/hif/motif_match/background_match/
-Results/hif/motif_match/hif_match/open_chromatin_hif1a.bed
-Results/hif/motif_match/hif_match/open_chromatin_mpbs.bed
-Results/hif/motif_match/hif_match/promoter_hif1a.bed
-Results/hif/motif_match/hif_match/promoter_hif1a_noname.bed
-Results/hif/motif_match/hif_match/promoter_mpbs.bed
-Results/hif/motif_match/hif_match_atac/atac_allmotifs.bb
-Results/hif/motif_match/hif_match_atac/atac_hif1a.bed
-Results/hif/motif_match/hif_match_atac/atac_hif1a_cut.bed
-Results/hif/motif_match/hif_match_atac/atac_hif1a_genes.bed
-Results/hif/motif_match/hif_match_atac/atac_hif1a_genes_motifseq.bed
-Results/hif/motif_match/input/all_mm9_open_chromatin.bed
-Results/hif/motif_match/input/all_mm9_promoters.bed
-Results/hif/motif_match/input/genes+promoters.bed
-Results/hif/motif_match/input/genes.bed
-Results/hif/motif_match/input/open_chromatin.bed
-Results/hif/motif_match/input/promoters.bed
-Results/hif/open_chromatin/
-Results/hif/target_gene_regions.bed
-Results/large_intestine/atac/ATAC.bam
-Results/large_intestine/atac/ATAC.bam.bai
-Results/large_intestine/atac/ATAC.bw
-Results/large_intestine/atac/GSM1545956_MA_i4_ATAC_LI1.bigWig
-Results/large_intestine/atac/GSM1545957_MA_i5_ATAC_LI2.bigWig
-Results/large_intestine/atac/LI_ATAC_peaks.bed
-Results/large_intestine/atac/LI_ATAC_peaks.encodePeak
-Results/large_intestine/atac/LI_ATAC_peaks_format.bed
-Results/large_intestine/atac/LI_ATAC_peaks_format_cut.bed
-Results/large_intestine/atac/LI_ATAC_summits.bed
-Results/large_intestine/atac/SRR1653776.bam
-Results/large_intestine/atac/SRR1653776.bam.bai
-Results/large_intestine/atac/SRR1653777.bam
-Results/large_intestine/atac/SRR1653777.bam.bai
-Results/large_intestine/footprints/results/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# UV
+#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#uv.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
+
+# PyPI configuration file
+.pypirc
+
+# Directories
+_legacy/
+
