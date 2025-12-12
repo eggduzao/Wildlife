@@ -1,12 +1,10 @@
 #!/bin/bash
 
-x=()
-y=0
-if [[ $x && $y ]]; then
-    echo "A"
-else
-    echo "B"
-fi
+cd "/Users/egg/Desktop/a"
+x="*.txt"
+echo $x
+echo "$x"
+echo $x | wc -w
 
 # Message
 echo "Cleaning system-specific artifacts..."
