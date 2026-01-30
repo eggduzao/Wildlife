@@ -1,0 +1,12 @@
+# Normalize line endings to LF in repo
+* text=auto eol=lf
+
+# Treat common binary types correctly
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.ipynb linguist-language=Jupyter Notebook
+
+# Docs: prefer linguist to count .rst as documentation
+docs/** linguist-documentation

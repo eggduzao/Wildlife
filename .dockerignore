@@ -1,0 +1,19 @@
+# Keep images lean
+.git
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+.build/
+dist/
+build/
+htmlcov/
+.docs_cache/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+docs/build/
+notebooks/
+data/
+*.ipynb_checkpoints/
+.env

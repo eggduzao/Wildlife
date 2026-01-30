@@ -1,0 +1,26 @@
+cff-version: 0.0.1
+title: wildlife
+type: software
+date-released: 2016-02-22
+authors:
+  - name: "Eduardo G Gusmao"
+message: "If you use Wildlife in a scientific publication, we would appreciate citations to the following paper:"
+preferred-citation:
+  type: article
+  title: "Analysis of computational footprinting methods for DNase sequencing experiments"
+  authors:
+  - family-names: "Gade Gusmao"
+    given-names: "Eduardo"
+  - family-names: "Allhoff"
+    given-names: "Manuel"
+  - family-names: "Zenke"
+    given-names: "Martin"
+  - family-names: "Gesteira Costa-Filho"
+    given-names: "Ivan"
+  journal: "Nature Methods"
+  volume: 13
+  start: 303
+  end: 309
+  year: 2016
+  url: "https://www.gusmaolab.org"
+  doi: "10.1038/nmeth.3772"

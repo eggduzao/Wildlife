@@ -1,0 +1,126 @@
+##############################################################################
+# Phenoteka — MANIFEST.in
+##############################################################################
+# Purpose:
+#   Control which files are bundled into the *source distribution* (sdist)
+#   produced by `python -m build` / `pip build`. Wheels are built from the
+#   sdist, so being explicit here prevents shipping junk while keeping all
+#   materials needed for:
+#     • building and installing Phenoteka,
+#     • running tests from the sdist (optional, but helpful),
+#     • generating documentation from the source,
+#     • using packaged non-Python assets (e.g., Dash assets, schemas).
+#
+# Strategy:
+#   • Include top-level metadata & configs (README, LICENSE, pyproject, tox, etc.)
+#   • Include *source* under src/phenoteka plus selected package data (yaml/json/css/js).
+#   • Include tests and docs *sources* (for reproducibility), but not built docs.
+#   • Exclude large/local runtime data directories (data/raw, interim, processed).
+#   • Apply conservative global excludes for bytecode, caches, and OS cruft.
+##############################################################################
+
+
+# ---------------------------------------------------------------------------
+# Top-level metadata and configuration (always include)
+# ---------------------------------------------------------------------------
+include README.md
+include LICENSE
+include pyproject.toml
+include setup.cfg
+include tox.ini
+include MANIFEST.in
+include clean.sh
+include requirements.txt
+include requirements-dev.txt
+
+# ---------------------------------------------------------------------------
+# Python package source (src/ layout)
+# ---------------------------------------------------------------------------
+# The Python modules themselves are discovered by setuptools from src/,
+# but non-Python assets (schemas, YAML rules, Dash assets) must be included.
+recursive-include src/phenoteka *.py
+# Typed package marker (if/when added)
+include src/phenoteka/py.typed
+
+# Package data likely needed at runtime (schemas, configs, templates, assets)
+recursive-include src/phenoteka *.yaml *.yml *.json *.csv *.tsv
+recursive-include src/phenoteka *.jinja *.j2
+recursive-include src/phenoteka *.ini *.cfg *.toml
+recursive-include src/phenoteka *.md
+
+# Dash/Plotly (GUI) static assets
+recursive-include src/phenoteka *.css *.js *.html
+
+# Images used by docs/examples within the package (small, illustrative)
+recursive-include src/phenoteka *.png *.jpg *.jpeg *.svg
+
+# ---------------------------------------------------------------------------
+# Tests (optional but encouraged for sdist reproducibility)
+# ---------------------------------------------------------------------------
+# Shipping tests helps downstream packagers verify builds.
+recursive-include tests *.py
+include tests/__init__.py
+
+# ---------------------------------------------------------------------------
+# Examples (CLI/API usage demos)
+# ---------------------------------------------------------------------------
+recursive-include examples *.py *.md *.txt *.yaml *.json *.csv
+
+# ---------------------------------------------------------------------------
+# Documentation sources (rebuildable docs)
+# ---------------------------------------------------------------------------
+# Include Sphinx configuration and source files; exclude built artifacts.
+recursive-include docs *.rst *.md *.py *.png *.jpg *.jpeg *.svg
+include docs/Makefile
+include docs/make.bat
+
+# If you *intentionally* want to ship prebuilt HTML docs, uncomment:
+# recursive-include docs/build/html *
+
+# ---------------------------------------------------------------------------
+# Notebooks (optional): include sources, exclude heavy outputs if any
+# ---------------------------------------------------------------------------
+recursive-include notebooks *.ipynb *.md
+prune notebooks/figs
+
+# ---------------------------------------------------------------------------
+# Local data directory policy
+# ---------------------------------------------------------------------------
+# The Phenoteka repo has a top-level `data/` for local work. Do NOT ship the
+# large/local runtime data areas in sdists/wheels.
+prune data/raw
+prune data/interim
+prune data/processed
+
+# Rules/configs under data/rules are *not* shipped from here (keep configs
+# under src/phenoteka/** whenever they are needed at runtime). If you do want
+# to ship rules, move them under src/phenoteka/... and include via patterns above.
+
+# ---------------------------------------------------------------------------
+# Global excludes: compiled bytecode, caches, VCS, OS cruft
+# ---------------------------------------------------------------------------
+global-exclude __pycache__ *.py[cod] *.so *.pyd
+global-exclude *.DS_Store ._* Thumbs.db
+prune .git
+exclude .gitignore
+exclude .gitattributes
+exclude .editorconfig
+exclude .env
+prune .vscode
+prune .idea
+prune build
+prune dist
+prune htmlcov
+prune .pytest_cache
+prune .mypy_cache
+prune .ruff_cache
+prune docs/build
+
+# ---------------------------------------------------------------------------
+# Notes:
+#  • If you later add package-internal datasets or schema bundles that must be
+#    importable at runtime, place them inside `src/phenoteka/...` and ensure
+#    there is a matching recursive-include pattern above.
+#  • Keep top-level `data/` strictly user-local; never rely on it at runtime.
+#  • Review sdist contents with: `python -m build` then `tar -tvf dist/*.tar.gz`.
+# ---------------------------------------------------------------------------

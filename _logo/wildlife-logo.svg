@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Editable < chevron with a rounded inner space via masking.
+     Knobs:
+       - GAP: thickness of inner gap (stroke-width)
+       - TOP_Y / BOT_Y: vertical span (height) of the chevron
+       - FILL: color of the chevron
+-->
+
+<svg
+   viewBox="0 0 1024 1024"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="wildlife-logo.svg"
+   width="1024"
+   height="1024"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   inkscape:export-filename="trydinn_1024.png"
+   inkscape:export-xdpi="95.953125"
+   inkscape:export-ydpi="95.953125"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview2"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="0.526876"
+   inkscape:cx="428.94343"
+   inkscape:cy="546.61818"
+   inkscape:window-width="1680"
+   inkscape:window-height="1027"
+   inkscape:window-x="47"
+   inkscape:window-y="34"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg2" />
+<!-- ====== PARAMETERS (edit these) ====== -->
+<!-- Inner gap thickness (in px). Try 140..240 -->
+<g
+   id="params"
+   data-GAP="180"
+   data-TOP_Y="160"
+   data-BOT_Y="864"
+   data-FILL="#000000"
+   transform="matrix(1.78,0,0,1.78,-530.13907,-668.81113)"
+   style="stroke-width:0.561798" />
+<!-- Read the values via JS if you want, but for simplicity just edit the numbers below too. -->
+<!-- ====== CONFIG (manually set from params above) ====== -->
+<!-- GAP: controls how wide the inner hollow is -->
+<!-- TOP_Y / BOT_Y: change these to make the shape taller/shorter -->
+<!-- FILL: color of the outer chevron -->
+<defs
+   id="defs1">
+  <style
+     id="style1">&#10;      /* Not required; kept for readability */&#10;    </style>
+  <!-- Mask that carves out the rounded inner gap using a stroked polyline -->
+  <mask
+     id="innerCut"><!-- Start fully visible -->
+<rect
+   width="1024"
+   height="1024"
+   fill="#ffffff"
+   id="rect1"
+   x="0"
+   y="0" />
+<!-- Draw the centerline of the chevron in BLACK; black = "cut out" -->
+<!-- Points: left-center -> top-right -> bottom-right -->
+<!-- Adjust TOP_Y and BOT_Y, and stroke-width for GAP -->
+<polyline
+   id="centerline"
+   points="256,512  704,160  704,864"
+   fill="none"
+   stroke="#000000"
+   stroke-width="180" />
+<!-- GAP -->
+&#10;&#10;&#10;&#10;        stroke-linecap=&quot;round&quot;&#10;        stroke-linejoin=&quot;round&quot;/&gt;&#10;    </mask>
+</defs>
+<!-- OPTIONAL background to see the hole; delete if not needed -->
+<!-- Outer chevron wedge (sharp outside) -->
+<!-- Edit TOP_Y and BOT_Y here to change height -->
+<!-- FILL -->
+&#10;&#10;&#10;&#10;        mask=&quot;url(#innerCut)&quot;/&gt;&#10;   <g
+   id="g1">
+  <path
+     d="M 10.79661,0 1024.9405,0.23264 c 0,0 -668.2243,6.03267 -797.29607,170.22827 -129.07175,164.19574 22.86554,814.9455 22.86554,814.9455 z"
+     fill="#000000"
+     id="path2"
+     sodipodi:nodetypes="ccscc"
+     style="stroke-width:1" />
+  <path
+     d="M 0,1024 2.54991,97.66091 C 60.03594,418.3875 127.94244,654.16267 234.61985,1023.8956 Z"
+     fill="#000000"
+     id="path2-0"
+     sodipodi:nodetypes="cccc"
+     style="stroke-width:1;fill:#b9561f;stroke:#b9561f;fill-opacity:1;stroke-opacity:1" />
+  <text
+     id="text2"
+     x="602.79584"
+     y="780"
+     font-style="normal"
+     font-variant="normal"
+     font-weight="bold"
+     font-stretch="normal"
+     font-size="750px"
+     font-family="Ubuntu"
+     text-align="center"
+     text-anchor="middle"
+     fill="#b53a2d"
+     fill-opacity="1"
+     stroke="#b53a2d"
+     stroke-width="1.33333"
+     stroke-opacity="1"
+     style="font-size:730px;letter-spacing:-60px;fill:#b9561f;fill-opacity:1;stroke:#b9561f;stroke-opacity:1">Wl</text>
+</g>
+</svg>

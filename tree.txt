@@ -1,0 +1,1183 @@
+.
+├── _legacy
+│		├── doc
+│		│		├── about.rst
+│		│		├── api
+│		│		│		├── deprecated.rst.template
+│		│		│		├── index.rst.template
+│		│		│		└── module.rst.template
+│		│		├── api_reference.py
+│		│		├── binder
+│		│		│		└── requirements.txt
+│		│		├── common_pitfalls.rst
+│		│		├── communication_team_emeritus.rst
+│		│		├── communication_team.rst
+│		│		├── computing
+│		│		│		├── computational_performance.rst
+│		│		│		├── parallelism.rst
+│		│		│		└── scaling_strategies.rst
+│		│		├── computing.rst
+│		│		├── conf.py
+│		│		├── conftest.py
+│		│		├── contributor_experience_team_emeritus.rst
+│		│		├── contributor_experience_team.rst
+│		│		├── css
+│		│		├── data_transforms.rst
+│		│		├── datasets
+│		│		│		├── loading_other_datasets.rst
+│		│		│		├── real_world.rst
+│		│		│		├── sample_generators.rst
+│		│		│		└── toy_dataset.rst
+│		│		├── datasets.rst
+│		│		├── developers
+│		│		│		├── bug_triaging.rst
+│		│		│		├── contributing.rst
+│		│		│		├── cython.rst
+│		│		│		├── develop.rst
+│		│		│		├── development_setup.rst
+│		│		│		├── index.rst
+│		│		│		├── maintainer.rst.template
+│		│		│		├── minimal_reproducer.rst
+│		│		│		├── misc_info.rst
+│		│		│		├── performance.rst
+│		│		│		├── plotting.rst
+│		│		│		├── tips.rst
+│		│		│		└── utilities.rst
+│		│		├── dispatching.rst
+│		│		├── documentation_team.rst
+│		│		├── faq.rst
+│		│		├── getting_started.rst
+│		│		├── glossary.rst
+│		│		├── governance.rst
+│		│		├── images
+│		│		├── index.rst.template
+│		│		├── inspection.rst
+│		│		├── install_instructions_conda.rst
+│		│		├── install.rst
+│		│		├── js
+│		│		│		└── scripts
+│		│		├── jupyter_lite_config.json
+│		│		├── jupyter-lite.json
+│		│		├── machine_learning_map.rst
+│		│		├── maintainers_emeritus.rst
+│		│		├── maintainers.rst
+│		│		├── make.bat
+│		│		├── Makefile
+│		│		├── metadata_routing.rst
+│		│		├── min_dependency_substitutions.rst.template
+│		│		├── min_dependency_table.rst.template
+│		│		├── model_persistence.rst
+│		│		├── model_selection.rst
+│		│		├── modules
+│		│		│		├── array_api.rst
+│		│		│		├── biclustering.rst
+│		│		│		├── calibration.rst
+│		│		│		├── classification_threshold.rst
+│		│		│		├── clustering.rst
+│		│		│		├── compose.rst
+│		│		│		├── covariance.rst
+│		│		│		├── cross_decomposition.rst
+│		│		│		├── cross_validation.rst
+│		│		│		├── decomposition.rst
+│		│		│		├── density.rst
+│		│		│		├── ensemble.rst
+│		│		│		├── feature_extraction.rst
+│		│		│		├── feature_selection.rst
+│		│		│		├── gaussian_process.rst
+│		│		│		├── glm_data
+│		│		│		├── grid_search.rst
+│		│		│		├── impute.rst
+│		│		│		├── isotonic.rst
+│		│		│		├── kernel_approximation.rst
+│		│		│		├── kernel_ridge.rst
+│		│		│		├── lda_qda.rst
+│		│		│		├── learning_curve.rst
+│		│		│		├── linear_model.rst
+│		│		│		├── manifold.rst
+│		│		│		├── metrics.rst
+│		│		│		├── mixture.rst
+│		│		│		├── model_evaluation.rst
+│		│		│		├── multiclass.rst
+│		│		│		├── naive_bayes.rst
+│		│		│		├── neighbors.rst
+│		│		│		├── neural_networks_supervised.rst
+│		│		│		├── neural_networks_unsupervised.rst
+│		│		│		├── outlier_detection.rst
+│		│		│		├── partial_dependence.rst
+│		│		│		├── permutation_importance.rst
+│		│		│		├── pipeline.rst
+│		│		│		├── preprocessing_targets.rst
+│		│		│		├── preprocessing.rst
+│		│		│		├── random_projection.rst
+│		│		│		├── semi_supervised.rst
+│		│		│		├── sgd.rst
+│		│		│		├── svm.rst
+│		│		│		├── tree.rst
+│		│		│		└── unsupervised_reduction.rst
+│		│		├── presentations.rst
+│		│		├── README.md
+│		│		├── related_projects.rst
+│		│		├── roadmap.rst
+│		│		├── scss
+│		│		│		├── api-search.scss
+│		│		│		├── api.scss
+│		│		│		├── colors.scss
+│		│		│		├── custom.scss
+│		│		│		└── index.scss
+│		│		├── sphinxext
+│		│		│		├── allow_nan_estimators.py
+│		│		│		├── autoshortsummary.py
+│		│		│		├── doi_role.py
+│		│		│		├── dropdown_anchors.py
+│		│		│		├── github_link.py
+│		│		│		├── MANIFEST.in
+│		│		│		├── override_pst_pagetoc.py
+│		│		│		└── sphinx_issues.py
+│		│		├── supervised_learning.rst
+│		│		├── support.rst
+│		│		├── templates
+│		│		│		├── base.rst
+│		│		│		├── index.html
+│		│		│		├── numpydoc_docstring.rst
+│		│		│		└── redirects.html
+│		│		├── unsupervised_learning.rst
+│		│		├── user_guide.rst
+│		│		├── visualizations.rst
+│		│		├── whats_new
+│		│		│		├── _contributors.rst
+│		│		│		├── changelog_legend.inc
+│		│		│		├── older_versions.rst
+│		│		│		├── upcoming_changes
+│		│		│		├── v0.13.rst
+│		│		│		├── v0.14.rst
+│		│		│		├── v0.15.rst
+│		│		│		├── v0.16.rst
+│		│		│		├── v0.17.rst
+│		│		│		├── v0.18.rst
+│		│		│		├── v0.19.rst
+│		│		│		├── v0.20.rst
+│		│		│		├── v0.21.rst
+│		│		│		├── v0.22.rst
+│		│		│		├── v0.23.rst
+│		│		│		├── v0.24.rst
+│		│		│		├── v1.0.rst
+│		│		│		├── v1.1.rst
+│		│		│		├── v1.2.rst
+│		│		│		├── v1.3.rst
+│		│		│		├── v1.4.rst
+│		│		│		├── v1.5.rst
+│		│		│		├── v1.6.rst
+│		│		│		├── v1.7.rst
+│		│		│		├── v1.8.rst
+│		│		│		└── v1.9.rst
+│		│		└── whats_new.rst
+│		├── examples
+│		│		├── applications
+│		│		│		├── plot_cyclical_feature_engineering.py
+│		│		│		├── plot_digits_denoising.py
+│		│		│		├── plot_face_recognition.py
+│		│		│		├── plot_model_complexity_influence.py
+│		│		│		├── plot_out_of_core_classification.py
+│		│		│		├── plot_outlier_detection_wine.py
+│		│		│		├── plot_prediction_latency.py
+│		│		│		├── plot_species_distribution_modeling.py
+│		│		│		├── plot_stock_market.py
+│		│		│		├── plot_time_series_lagged_features.py
+│		│		│		├── plot_tomography_l1_reconstruction.py
+│		│		│		├── plot_topics_extraction_with_nmf_lda.py
+│		│		│		├── README.txt
+│		│		│		└── wikipedia_principal_eigenvector.py
+│		│		├── bicluster
+│		│		│		├── plot_bicluster_newsgroups.py
+│		│		│		├── plot_spectral_biclustering.py
+│		│		│		├── plot_spectral_coclustering.py
+│		│		│		└── README.txt
+│		│		├── calibration
+│		│		│		├── plot_calibration_curve.py
+│		│		│		├── plot_calibration_multiclass.py
+│		│		│		├── plot_calibration.py
+│		│		│		├── plot_compare_calibration.py
+│		│		│		└── README.txt
+│		│		├── classification
+│		│		│		├── plot_classification_probability.py
+│		│		│		├── plot_classifier_comparison.py
+│		│		│		├── plot_digits_classification.py
+│		│		│		├── plot_lda_qda.py
+│		│		│		├── plot_lda.py
+│		│		│		└── README.txt
+│		│		├── cluster
+│		│		│		├── plot_adjusted_for_chance_measures.py
+│		│		│		├── plot_affinity_propagation.py
+│		│		│		├── plot_agglomerative_clustering_metrics.py
+│		│		│		├── plot_agglomerative_dendrogram.py
+│		│		│		├── plot_birch_vs_minibatchkmeans.py
+│		│		│		├── plot_bisect_kmeans.py
+│		│		│		├── plot_cluster_comparison.py
+│		│		│		├── plot_coin_segmentation.py
+│		│		│		├── plot_coin_ward_segmentation.py
+│		│		│		├── plot_dbscan.py
+│		│		│		├── plot_dict_face_patches.py
+│		│		│		├── plot_digits_agglomeration.py
+│		│		│		├── plot_digits_linkage.py
+│		│		│		├── plot_face_compress.py
+│		│		│		├── plot_feature_agglomeration_vs_univariate_selection.py
+│		│		│		├── plot_hdbscan.py
+│		│		│		├── plot_inductive_clustering.py
+│		│		│		├── plot_kmeans_assumptions.py
+│		│		│		├── plot_kmeans_digits.py
+│		│		│		├── plot_kmeans_plusplus.py
+│		│		│		├── plot_kmeans_silhouette_analysis.py
+│		│		│		├── plot_kmeans_stability_low_dim_dense.py
+│		│		│		├── plot_linkage_comparison.py
+│		│		│		├── plot_mean_shift.py
+│		│		│		├── plot_mini_batch_kmeans.py
+│		│		│		├── plot_optics.py
+│		│		│		├── plot_segmentation_toy.py
+│		│		│		├── plot_ward_structured_vs_unstructured.py
+│		│		│		└── README.txt
+│		│		├── compose
+│		│		│		├── plot_column_transformer_mixed_types.py
+│		│		│		├── plot_column_transformer.py
+│		│		│		├── plot_compare_reduction.py
+│		│		│		├── plot_digits_pipe.py
+│		│		│		├── plot_feature_union.py
+│		│		│		├── plot_transformed_target.py
+│		│		│		└── README.txt
+│		│		├── covariance
+│		│		│		├── plot_covariance_estimation.py
+│		│		│		├── plot_lw_vs_oas.py
+│		│		│		├── plot_mahalanobis_distances.py
+│		│		│		├── plot_robust_vs_empirical_covariance.py
+│		│		│		├── plot_sparse_cov.py
+│		│		│		└── README.txt
+│		│		├── cross_decomposition
+│		│		│		├── plot_compare_cross_decomposition.py
+│		│		│		├── plot_pcr_vs_pls.py
+│		│		│		└── README.txt
+│		│		├── datasets
+│		│		│		├── plot_random_multilabel_dataset.py
+│		│		│		└── README.txt
+│		│		├── decomposition
+│		│		│		├── plot_faces_decomposition.py
+│		│		│		├── plot_ica_blind_source_separation.py
+│		│		│		├── plot_ica_vs_pca.py
+│		│		│		├── plot_image_denoising.py
+│		│		│		├── plot_incremental_pca.py
+│		│		│		├── plot_kernel_pca.py
+│		│		│		├── plot_pca_iris.py
+│		│		│		├── plot_pca_vs_fa_model_selection.py
+│		│		│		├── plot_pca_vs_lda.py
+│		│		│		├── plot_sparse_coding.py
+│		│		│		├── plot_varimax_fa.py
+│		│		│		└── README.txt
+│		│		├── developing_estimators
+│		│		│		├── README.txt
+│		│		│		└── sklearn_is_fitted.py
+│		│		├── ensemble
+│		│		│		├── plot_adaboost_multiclass.py
+│		│		│		├── plot_adaboost_regression.py
+│		│		│		├── plot_adaboost_twoclass.py
+│		│		│		├── plot_bias_variance.py
+│		│		│		├── plot_ensemble_oob.py
+│		│		│		├── plot_feature_transformation.py
+│		│		│		├── plot_forest_hist_grad_boosting_comparison.py
+│		│		│		├── plot_forest_importances.py
+│		│		│		├── plot_forest_iris.py
+│		│		│		├── plot_gradient_boosting_categorical.py
+│		│		│		├── plot_gradient_boosting_early_stopping.py
+│		│		│		├── plot_gradient_boosting_oob.py
+│		│		│		├── plot_gradient_boosting_quantile.py
+│		│		│		├── plot_gradient_boosting_regression.py
+│		│		│		├── plot_gradient_boosting_regularization.py
+│		│		│		├── plot_hgbt_regression.py
+│		│		│		├── plot_isolation_forest.py
+│		│		│		├── plot_monotonic_constraints.py
+│		│		│		├── plot_random_forest_embedding.py
+│		│		│		├── plot_random_forest_regression_multioutput.py
+│		│		│		├── plot_stack_predictors.py
+│		│		│		├── plot_voting_decision_regions.py
+│		│		│		├── plot_voting_regressor.py
+│		│		│		└── README.txt
+│		│		├── feature_selection
+│		│		│		├── plot_f_test_vs_mi.py
+│		│		│		├── plot_feature_selection_pipeline.py
+│		│		│		├── plot_feature_selection.py
+│		│		│		├── plot_rfe_digits.py
+│		│		│		├── plot_rfe_with_cross_validation.py
+│		│		│		├── plot_select_from_model_diabetes.py
+│		│		│		└── README.txt
+│		│		├── frozen
+│		│		│		├── plot_frozen_examples.py
+│		│		│		└── README.txt
+│		│		├── gaussian_process
+│		│		│		├── plot_compare_gpr_krr.py
+│		│		│		├── plot_gpc_iris.py
+│		│		│		├── plot_gpc_isoprobability.py
+│		│		│		├── plot_gpc_xor.py
+│		│		│		├── plot_gpc.py
+│		│		│		├── plot_gpr_co2.py
+│		│		│		├── plot_gpr_noisy_targets.py
+│		│		│		├── plot_gpr_noisy.py
+│		│		│		├── plot_gpr_on_structured_data.py
+│		│		│		├── plot_gpr_prior_posterior.py
+│		│		│		└── README.txt
+│		│		├── impute
+│		│		│		├── plot_iterative_imputer_variants_comparison.py
+│		│		│		├── plot_missing_values.py
+│		│		│		└── README.txt
+│		│		├── inspection
+│		│		│		├── plot_causal_interpretation.py
+│		│		│		├── plot_linear_model_coefficient_interpretation.py
+│		│		│		├── plot_partial_dependence.py
+│		│		│		├── plot_permutation_importance_multicollinear.py
+│		│		│		├── plot_permutation_importance.py
+│		│		│		└── README.txt
+│		│		├── kernel_approximation
+│		│		│		├── plot_scalable_poly_kernels.py
+│		│		│		└── README.txt
+│		│		├── linear_model
+│		│		│		├── plot_ard.py
+│		│		│		├── plot_bayesian_ridge_curvefit.py
+│		│		│		├── plot_elastic_net_precomputed_gram_matrix_with_weighted_samples.py
+│		│		│		├── plot_huber_vs_ridge.py
+│		│		│		├── plot_lasso_and_elasticnet.py
+│		│		│		├── plot_lasso_dense_vs_sparse_data.py
+│		│		│		├── plot_lasso_lars_ic.py
+│		│		│		├── plot_lasso_lasso_lars_elasticnet_path.py
+│		│		│		├── plot_lasso_model_selection.py
+│		│		│		├── plot_logistic_l1_l2_sparsity.py
+│		│		│		├── plot_logistic_multinomial.py
+│		│		│		├── plot_logistic_path.py
+│		│		│		├── plot_multi_task_lasso_support.py
+│		│		│		├── plot_nnls.py
+│		│		│		├── plot_ols_ridge.py
+│		│		│		├── plot_omp.py
+│		│		│		├── plot_poisson_regression_non_normal_loss.py
+│		│		│		├── plot_polynomial_interpolation.py
+│		│		│		├── plot_quantile_regression.py
+│		│		│		├── plot_ransac.py
+│		│		│		├── plot_ridge_coeffs.py
+│		│		│		├── plot_ridge_path.py
+│		│		│		├── plot_robust_fit.py
+│		│		│		├── plot_sgd_early_stopping.py
+│		│		│		├── plot_sgd_iris.py
+│		│		│		├── plot_sgd_loss_functions.py
+│		│		│		├── plot_sgd_penalties.py
+│		│		│		├── plot_sgd_separating_hyperplane.py
+│		│		│		├── plot_sgd_weighted_samples.py
+│		│		│		├── plot_sgdocsvm_vs_ocsvm.py
+│		│		│		├── plot_sparse_logistic_regression_20newsgroups.py
+│		│		│		├── plot_sparse_logistic_regression_mnist.py
+│		│		│		├── plot_theilsen.py
+│		│		│		├── plot_tweedie_regression_insurance_claims.py
+│		│		│		└── README.txt
+│		│		├── manifold
+│		│		│		├── plot_compare_methods.py
+│		│		│		├── plot_lle_digits.py
+│		│		│		├── plot_manifold_sphere.py
+│		│		│		├── plot_mds.py
+│		│		│		├── plot_swissroll.py
+│		│		│		├── plot_t_sne_perplexity.py
+│		│		│		└── README.txt
+│		│		├── miscellaneous
+│		│		│		├── plot_anomaly_comparison.py
+│		│		│		├── plot_display_object_visualization.py
+│		│		│		├── plot_estimator_representation.py
+│		│		│		├── plot_isotonic_regression.py
+│		│		│		├── plot_johnson_lindenstrauss_bound.py
+│		│		│		├── plot_kernel_approximation.py
+│		│		│		├── plot_kernel_ridge_regression.py
+│		│		│		├── plot_metadata_routing.py
+│		│		│		├── plot_multilabel.py
+│		│		│		├── plot_multioutput_face_completion.py
+│		│		│		├── plot_outlier_detection_bench.py
+│		│		│		├── plot_partial_dependence_visualization_api.py
+│		│		│		├── plot_pipeline_display.py
+│		│		│		├── plot_roc_curve_visualization_api.py
+│		│		│		├── plot_set_output.py
+│		│		│		└── README.txt
+│		│		├── mixture
+│		│		│		├── plot_concentration_prior.py
+│		│		│		├── plot_gmm_covariances.py
+│		│		│		├── plot_gmm_init.py
+│		│		│		├── plot_gmm_pdf.py
+│		│		│		├── plot_gmm_selection.py
+│		│		│		├── plot_gmm_sin.py
+│		│		│		├── plot_gmm.py
+│		│		│		└── README.txt
+│		│		├── model_selection
+│		│		│		├── plot_confusion_matrix.py
+│		│		│		├── plot_cost_sensitive_learning.py
+│		│		│		├── plot_cv_indices.py
+│		│		│		├── plot_cv_predict.py
+│		│		│		├── plot_det.py
+│		│		│		├── plot_grid_search_digits.py
+│		│		│		├── plot_grid_search_refit_callable.py
+│		│		│		├── plot_grid_search_stats.py
+│		│		│		├── plot_grid_search_text_feature_extraction.py
+│		│		│		├── plot_learning_curve.py
+│		│		│		├── plot_likelihood_ratios.py
+│		│		│		├── plot_multi_metric_evaluation.py
+│		│		│		├── plot_nested_cross_validation_iris.py
+│		│		│		├── plot_permutation_tests_for_classification.py
+│		│		│		├── plot_precision_recall.py
+│		│		│		├── plot_randomized_search.py
+│		│		│		├── plot_roc_crossval.py
+│		│		│		├── plot_roc.py
+│		│		│		├── plot_successive_halving_heatmap.py
+│		│		│		├── plot_successive_halving_iterations.py
+│		│		│		├── plot_train_error_vs_test_error.py
+│		│		│		├── plot_tuned_decision_threshold.py
+│		│		│		├── plot_underfitting_overfitting.py
+│		│		│		└── README.txt
+│		│		├── multiclass
+│		│		│		├── plot_multiclass_overview.py
+│		│		│		└── README.txt
+│		│		├── multioutput
+│		│		│		├── plot_classifier_chain_yeast.py
+│		│		│		└── README.txt
+│		│		├── neighbors
+│		│		│		├── approximate_nearest_neighbors.py
+│		│		│		├── plot_caching_nearest_neighbors.py
+│		│		│		├── plot_classification.py
+│		│		│		├── plot_digits_kde_sampling.py
+│		│		│		├── plot_kde_1d.py
+│		│		│		├── plot_lof_novelty_detection.py
+│		│		│		├── plot_lof_outlier_detection.py
+│		│		│		├── plot_nca_classification.py
+│		│		│		├── plot_nca_dim_reduction.py
+│		│		│		├── plot_nca_illustration.py
+│		│		│		├── plot_nearest_centroid.py
+│		│		│		├── plot_regression.py
+│		│		│		├── plot_species_kde.py
+│		│		│		└── README.txt
+│		│		├── neural_networks
+│		│		│		├── plot_mlp_alpha.py
+│		│		│		├── plot_mlp_training_curves.py
+│		│		│		├── plot_mnist_filters.py
+│		│		│		├── plot_rbm_logistic_classification.py
+│		│		│		└── README.txt
+│		│		├── preprocessing
+│		│		│		├── plot_all_scaling.py
+│		│		│		├── plot_discretization_classification.py
+│		│		│		├── plot_discretization_strategies.py
+│		│		│		├── plot_discretization.py
+│		│		│		├── plot_map_data_to_normal.py
+│		│		│		├── plot_scaling_importance.py
+│		│		│		├── plot_target_encoder_cross_val.py
+│		│		│		├── plot_target_encoder.py
+│		│		│		└── README.txt
+│		│		├── README.txt
+│		│		├── release_highlights
+│		│		│		├── plot_release_highlights_0_22_0.py
+│		│		│		├── plot_release_highlights_0_23_0.py
+│		│		│		├── plot_release_highlights_0_24_0.py
+│		│		│		├── plot_release_highlights_1_0_0.py
+│		│		│		├── plot_release_highlights_1_1_0.py
+│		│		│		├── plot_release_highlights_1_2_0.py
+│		│		│		├── plot_release_highlights_1_3_0.py
+│		│		│		├── plot_release_highlights_1_4_0.py
+│		│		│		├── plot_release_highlights_1_5_0.py
+│		│		│		├── plot_release_highlights_1_6_0.py
+│		│		│		├── plot_release_highlights_1_7_0.py
+│		│		│		└── README.txt
+│		│		├── semi_supervised
+│		│		│		├── plot_label_propagation_digits_active_learning.py
+│		│		│		├── plot_label_propagation_digits.py
+│		│		│		├── plot_label_propagation_structure.py
+│		│		│		├── plot_self_training_varying_threshold.py
+│		│		│		├── plot_semi_supervised_newsgroups.py
+│		│		│		├── plot_semi_supervised_versus_svm_iris.py
+│		│		│		└── README.txt
+│		│		├── svm
+│		│		│		├── plot_custom_kernel.py
+│		│		│		├── plot_iris_svc.py
+│		│		│		├── plot_linearsvc_support_vectors.py
+│		│		│		├── plot_oneclass.py
+│		│		│		├── plot_rbf_parameters.py
+│		│		│		├── plot_separating_hyperplane_unbalanced.py
+│		│		│		├── plot_separating_hyperplane.py
+│		│		│		├── plot_svm_anova.py
+│		│		│		├── plot_svm_kernels.py
+│		│		│		├── plot_svm_margin.py
+│		│		│		├── plot_svm_regression.py
+│		│		│		├── plot_svm_scale_c.py
+│		│		│		├── plot_svm_tie_breaking.py
+│		│		│		├── plot_weighted_samples.py
+│		│		│		└── README.txt
+│		│		├── text
+│		│		│		├── plot_document_classification_20newsgroups.py
+│		│		│		├── plot_document_clustering.py
+│		│		│		├── plot_hashing_vs_dict_vectorizer.py
+│		│		│		└── README.txt
+│		│		└── tree
+│		│		    ├── plot_cost_complexity_pruning.py
+│		│		    ├── plot_iris_dtc.py
+│		│		    ├── plot_tree_regression.py
+│		│		    ├── plot_unveil_tree_structure.py
+│		│		    └── README.txt
+│		├── meson.build
+│		├── sklearn
+│		│		├── __check_build
+│		│		│		├── __init__.py
+│		│		│		├── _check_build.pyx
+│		│		│		└── meson.build
+│		│		├── __init__.py
+│		│		├── _build_utils
+│		│		│		├── __init__.py
+│		│		│		├── tempita.py
+│		│		│		└── version.py
+│		│		├── _config.py
+│		│		├── _distributor_init.py
+│		│		├── _isotonic.pyx
+│		│		├── _loss
+│		│		│		├── __init__.py
+│		│		│		├── _loss.pxd
+│		│		│		├── _loss.pyx.tp
+│		│		│		├── link.py
+│		│		│		├── loss.py
+│		│		│		├── meson.build
+│		│		│		└── tests
+│		│		├── _min_dependencies.py
+│		│		├── base.py
+│		│		├── calibration.py
+│		│		├── cluster
+│		│		│		├── __init__.py
+│		│		│		├── _affinity_propagation.py
+│		│		│		├── _agglomerative.py
+│		│		│		├── _bicluster.py
+│		│		│		├── _birch.py
+│		│		│		├── _bisect_k_means.py
+│		│		│		├── _dbscan_inner.pyx
+│		│		│		├── _dbscan.py
+│		│		│		├── _feature_agglomeration.py
+│		│		│		├── _hdbscan
+│		│		│		├── _hierarchical_fast.pxd
+│		│		│		├── _hierarchical_fast.pyx
+│		│		│		├── _k_means_common.pxd
+│		│		│		├── _k_means_common.pyx
+│		│		│		├── _k_means_elkan.pyx
+│		│		│		├── _k_means_lloyd.pyx
+│		│		│		├── _k_means_minibatch.pyx
+│		│		│		├── _kmeans.py
+│		│		│		├── _mean_shift.py
+│		│		│		├── _optics.py
+│		│		│		├── _spectral.py
+│		│		│		├── meson.build
+│		│		│		└── tests
+│		│		├── compose
+│		│		│		├── __init__.py
+│		│		│		├── _column_transformer.py
+│		│		│		├── _target.py
+│		│		│		└── tests
+│		│		├── conftest.py
+│		│		├── covariance
+│		│		│		├── __init__.py
+│		│		│		├── _elliptic_envelope.py
+│		│		│		├── _empirical_covariance.py
+│		│		│		├── _graph_lasso.py
+│		│		│		├── _robust_covariance.py
+│		│		│		├── _shrunk_covariance.py
+│		│		│		└── tests
+│		│		├── cross_decomposition
+│		│		│		├── __init__.py
+│		│		│		├── _pls.py
+│		│		│		└── tests
+│		│		├── datasets
+│		│		│		├── __init__.py
+│		│		│		├── _arff_parser.py
+│		│		│		├── _base.py
+│		│		│		├── _california_housing.py
+│		│		│		├── _covtype.py
+│		│		│		├── _kddcup99.py
+│		│		│		├── _lfw.py
+│		│		│		├── _olivetti_faces.py
+│		│		│		├── _openml.py
+│		│		│		├── _rcv1.py
+│		│		│		├── _samples_generator.py
+│		│		│		├── _species_distributions.py
+│		│		│		├── _svmlight_format_fast.pyx
+│		│		│		├── _svmlight_format_io.py
+│		│		│		├── _twenty_newsgroups.py
+│		│		│		├── data
+│		│		│		├── descr
+│		│		│		├── images
+│		│		│		├── meson.build
+│		│		│		└── tests
+│		│		├── decomposition
+│		│		│		├── __init__.py
+│		│		│		├── _base.py
+│		│		│		├── _cdnmf_fast.pyx
+│		│		│		├── _dict_learning.py
+│		│		│		├── _factor_analysis.py
+│		│		│		├── _fastica.py
+│		│		│		├── _incremental_pca.py
+│		│		│		├── _kernel_pca.py
+│		│		│		├── _lda.py
+│		│		│		├── _nmf.py
+│		│		│		├── _online_lda_fast.pyx
+│		│		│		├── _pca.py
+│		│		│		├── _sparse_pca.py
+│		│		│		├── _truncated_svd.py
+│		│		│		├── meson.build
+│		│		│		└── tests
+│		│		├── discriminant_analysis.py
+│		│		├── dummy.py
+│		│		├── ensemble
+│		│		│		├── __init__.py
+│		│		│		├── _bagging.py
+│		│		│		├── _base.py
+│		│		│		├── _forest.py
+│		│		│		├── _gb.py
+│		│		│		├── _gradient_boosting.pyx
+│		│		│		├── _hist_gradient_boosting
+│		│		│		├── _iforest.py
+│		│		│		├── _stacking.py
+│		│		│		├── _voting.py
+│		│		│		├── _weight_boosting.py
+│		│		│		├── meson.build
+│		│		│		└── tests
+│		│		├── exceptions.py
+│		│		├── experimental
+│		│		│		├── __init__.py
+│		│		│		├── enable_halving_search_cv.py
+│		│		│		├── enable_hist_gradient_boosting.py
+│		│		│		├── enable_iterative_imputer.py
+│		│		│		└── tests
+│		│		├── externals
+│		│		│		├── __init__.py
+│		│		│		├── _arff.py
+│		│		│		├── _array_api_compat_vendor.py
+│		│		│		├── _numpydoc
+│		│		│		├── _packaging
+│		│		│		├── _scipy
+│		│		│		├── array_api_compat
+│		│		│		├── array_api_extra
+│		│		│		├── conftest.py
+│		│		│		└── README
+│		│		├── feature_extraction
+│		│		│		├── __init__.py
+│		│		│		├── _dict_vectorizer.py
+│		│		│		├── _hash.py
+│		│		│		├── _hashing_fast.pyx
+│		│		│		├── _stop_words.py
+│		│		│		├── image.py
+│		│		│		├── meson.build
+│		│		│		├── tests
+│		│		│		└── text.py
+│		│		├── feature_selection
+│		│		│		├── __init__.py
+│		│		│		├── _base.py
+│		│		│		├── _from_model.py
+│		│		│		├── _mutual_info.py
+│		│		│		├── _rfe.py
+│		│		│		├── _sequential.py
+│		│		│		├── _univariate_selection.py
+│		│		│		├── _variance_threshold.py
+│		│		│		└── tests
+│		│		├── frozen
+│		│		│		├── __init__.py
+│		│		│		├── _frozen.py
+│		│		│		└── tests
+│		│		├── gaussian_process
+│		│		│		├── __init__.py
+│		│		│		├── _gpc.py
+│		│		│		├── _gpr.py
+│		│		│		├── kernels.py
+│		│		│		└── tests
+│		│		├── impute
+│		│		│		├── __init__.py
+│		│		│		├── _base.py
+│		│		│		├── _iterative.py
+│		│		│		├── _knn.py
+│		│		│		└── tests
+│		│		├── inspection
+│		│		│		├── __init__.py
+│		│		│		├── _partial_dependence.py
+│		│		│		├── _pd_utils.py
+│		│		│		├── _permutation_importance.py
+│		│		│		├── _plot
+│		│		│		└── tests
+│		│		├── isotonic.py
+│		│		├── kernel_approximation.py
+│		│		├── kernel_ridge.py
+│		│		├── linear_model
+│		│		│		├── __init__.py
+│		│		│		├── _base.py
+│		│		│		├── _bayes.py
+│		│		│		├── _cd_fast.pyx
+│		│		│		├── _coordinate_descent.py
+│		│		│		├── _glm
+│		│		│		├── _huber.py
+│		│		│		├── _least_angle.py
+│		│		│		├── _linear_loss.py
+│		│		│		├── _logistic.py
+│		│		│		├── _omp.py
+│		│		│		├── _passive_aggressive.py
+│		│		│		├── _perceptron.py
+│		│		│		├── _quantile.py
+│		│		│		├── _ransac.py
+│		│		│		├── _ridge.py
+│		│		│		├── _sag_fast.pyx.tp
+│		│		│		├── _sag.py
+│		│		│		├── _sgd_fast.pyx.tp
+│		│		│		├── _stochastic_gradient.py
+│		│		│		├── _theil_sen.py
+│		│		│		├── meson.build
+│		│		│		└── tests
+│		│		├── manifold
+│		│		│		├── __init__.py
+│		│		│		├── _barnes_hut_tsne.pyx
+│		│		│		├── _classical_mds.py
+│		│		│		├── _isomap.py
+│		│		│		├── _locally_linear.py
+│		│		│		├── _mds.py
+│		│		│		├── _spectral_embedding.py
+│		│		│		├── _t_sne.py
+│		│		│		├── _utils.pyx
+│		│		│		├── meson.build
+│		│		│		└── tests
+│		│		├── meson.build
+│		│		├── metrics
+│		│		│		├── __init__.py
+│		│		│		├── _base.py
+│		│		│		├── _classification.py
+│		│		│		├── _dist_metrics.pxd.tp
+│		│		│		├── _dist_metrics.pyx.tp
+│		│		│		├── _pairwise_distances_reduction
+│		│		│		├── _pairwise_fast.pyx
+│		│		│		├── _plot
+│		│		│		├── _ranking.py
+│		│		│		├── _regression.py
+│		│		│		├── _scorer.py
+│		│		│		├── cluster
+│		│		│		├── meson.build
+│		│		│		├── pairwise.py
+│		│		│		└── tests
+│		│		├── mixture
+│		│		│		├── __init__.py
+│		│		│		├── _base.py
+│		│		│		├── _bayesian_mixture.py
+│		│		│		├── _gaussian_mixture.py
+│		│		│		└── tests
+│		│		├── model_selection
+│		│		│		├── __init__.py
+│		│		│		├── _classification_threshold.py
+│		│		│		├── _plot.py
+│		│		│		├── _search_successive_halving.py
+│		│		│		├── _search.py
+│		│		│		├── _split.py
+│		│		│		├── _validation.py
+│		│		│		└── tests
+│		│		├── multiclass.py
+│		│		├── multioutput.py
+│		│		├── naive_bayes.py
+│		│		├── neighbors
+│		│		│		├── __init__.py
+│		│		│		├── _ball_tree.pyx.tp
+│		│		│		├── _base.py
+│		│		│		├── _binary_tree.pxi.tp
+│		│		│		├── _classification.py
+│		│		│		├── _graph.py
+│		│		│		├── _kd_tree.pyx.tp
+│		│		│		├── _kde.py
+│		│		│		├── _lof.py
+│		│		│		├── _nca.py
+│		│		│		├── _nearest_centroid.py
+│		│		│		├── _partition_nodes.pxd
+│		│		│		├── _partition_nodes.pyx
+│		│		│		├── _quad_tree.pxd
+│		│		│		├── _quad_tree.pyx
+│		│		│		├── _regression.py
+│		│		│		├── _unsupervised.py
+│		│		│		├── meson.build
+│		│		│		└── tests
+│		│		├── neural_network
+│		│		│		├── __init__.py
+│		│		│		├── _base.py
+│		│		│		├── _multilayer_perceptron.py
+│		│		│		├── _rbm.py
+│		│		│		├── _stochastic_optimizers.py
+│		│		│		└── tests
+│		│		├── pipeline.py
+│		│		├── preprocessing
+│		│		│		├── __init__.py
+│		│		│		├── _csr_polynomial_expansion.pyx
+│		│		│		├── _data.py
+│		│		│		├── _discretization.py
+│		│		│		├── _encoders.py
+│		│		│		├── _function_transformer.py
+│		│		│		├── _label.py
+│		│		│		├── _polynomial.py
+│		│		│		├── _target_encoder_fast.pyx
+│		│		│		├── _target_encoder.py
+│		│		│		├── meson.build
+│		│		│		└── tests
+│		│		├── random_projection.py
+│		│		├── semi_supervised
+│		│		│		├── __init__.py
+│		│		│		├── _label_propagation.py
+│		│		│		├── _self_training.py
+│		│		│		└── tests
+│		│		├── svm
+│		│		│		├── __init__.py
+│		│		│		├── _base.py
+│		│		│		├── _bounds.py
+│		│		│		├── _classes.py
+│		│		│		├── _liblinear.pxi
+│		│		│		├── _liblinear.pyx
+│		│		│		├── _libsvm_sparse.pyx
+│		│		│		├── _libsvm.pxi
+│		│		│		├── _libsvm.pyx
+│		│		│		├── _newrand.pyx
+│		│		│		├── meson.build
+│		│		│		├── src
+│		│		│		└── tests
+│		│		├── tests
+│		│		│		├── __init__.py
+│		│		│		├── metadata_routing_common.py
+│		│		│		├── test_base.py
+│		│		│		├── test_build.py
+│		│		│		├── test_calibration.py
+│		│		│		├── test_check_build.py
+│		│		│		├── test_common.py
+│		│		│		├── test_config.py
+│		│		│		├── test_discriminant_analysis.py
+│		│		│		├── test_docstring_parameters_consistency.py
+│		│		│		├── test_docstring_parameters.py
+│		│		│		├── test_docstrings.py
+│		│		│		├── test_dummy.py
+│		│		│		├── test_init.py
+│		│		│		├── test_isotonic.py
+│		│		│		├── test_kernel_approximation.py
+│		│		│		├── test_kernel_ridge.py
+│		│		│		├── test_metadata_routing.py
+│		│		│		├── test_metaestimators_metadata_routing.py
+│		│		│		├── test_metaestimators.py
+│		│		│		├── test_min_dependencies_readme.py
+│		│		│		├── test_multiclass.py
+│		│		│		├── test_multioutput.py
+│		│		│		├── test_naive_bayes.py
+│		│		│		├── test_pipeline.py
+│		│		│		├── test_public_functions.py
+│		│		│		└── test_random_projection.py
+│		│		├── tree
+│		│		│		├── __init__.py
+│		│		│		├── _classes.py
+│		│		│		├── _criterion.pxd
+│		│		│		├── _criterion.pyx
+│		│		│		├── _export.py
+│		│		│		├── _partitioner.pxd
+│		│		│		├── _partitioner.pyx
+│		│		│		├── _reingold_tilford.py
+│		│		│		├── _splitter.pxd
+│		│		│		├── _splitter.pyx
+│		│		│		├── _tree.pxd
+│		│		│		├── _tree.pyx
+│		│		│		├── _utils.pxd
+│		│		│		├── _utils.pyx
+│		│		│		├── meson.build
+│		│		│		└── tests
+│		│		└── utils
+│		│		    ├── __init__.py
+│		│		    ├── _arpack.py
+│		│		    ├── _array_api.py
+│		│		    ├── _available_if.py
+│		│		    ├── _bunch.py
+│		│		    ├── _chunking.py
+│		│		    ├── _cython_blas.pxd
+│		│		    ├── _cython_blas.pyx
+│		│		    ├── _encode.py
+│		│		    ├── _fast_dict.pxd
+│		│		    ├── _fast_dict.pyx
+│		│		    ├── _heap.pxd
+│		│		    ├── _heap.pyx
+│		│		    ├── _indexing.py
+│		│		    ├── _isfinite.pyx
+│		│		    ├── _mask.py
+│		│		    ├── _metadata_requests.py
+│		│		    ├── _missing.py
+│		│		    ├── _mocking.py
+│		│		    ├── _openmp_helpers.pxd
+│		│		    ├── _openmp_helpers.pyx
+│		│		    ├── _optional_dependencies.py
+│		│		    ├── _param_validation.py
+│		│		    ├── _plotting.py
+│		│		    ├── _pprint.py
+│		│		    ├── _random.pxd
+│		│		    ├── _random.pyx
+│		│		    ├── _repr_html
+│		│		    ├── _response.py
+│		│		    ├── _seq_dataset.pxd.tp
+│		│		    ├── _seq_dataset.pyx.tp
+│		│		    ├── _set_output.py
+│		│		    ├── _show_versions.py
+│		│		    ├── _sorting.pxd
+│		│		    ├── _sorting.pyx
+│		│		    ├── _tags.py
+│		│		    ├── _test_common
+│		│		    ├── _testing.py
+│		│		    ├── _typedefs.pxd
+│		│		    ├── _typedefs.pyx
+│		│		    ├── _unique.py
+│		│		    ├── _user_interface.py
+│		│		    ├── _vector_sentinel.pxd
+│		│		    ├── _vector_sentinel.pyx
+│		│		    ├── _weight_vector.pxd.tp
+│		│		    ├── _weight_vector.pyx.tp
+│		│		    ├── arrayfuncs.pyx
+│		│		    ├── class_weight.py
+│		│		    ├── deprecation.py
+│		│		    ├── discovery.py
+│		│		    ├── estimator_checks.py
+│		│		    ├── extmath.py
+│		│		    ├── fixes.py
+│		│		    ├── graph.py
+│		│		    ├── meson.build
+│		│		    ├── metadata_routing.py
+│		│		    ├── metaestimators.py
+│		│		    ├── multiclass.py
+│		│		    ├── murmurhash.pxd
+│		│		    ├── murmurhash.pyx
+│		│		    ├── optimize.py
+│		│		    ├── parallel.py
+│		│		    ├── random.py
+│		│		    ├── sparsefuncs_fast.pyx
+│		│		    ├── sparsefuncs.py
+│		│		    ├── src
+│		│		    ├── stats.py
+│		│		    ├── tests
+│		│		    └── validation.py
+│		└── tree.txt
+├── _logo
+├── benchmarks
+│		├── input.csv
+│		├── output.tex
+│		├── README.md
+│		├── run_benchmarks.py
+│		└── suites
+│		    ├── dosage_dataset
+│		    │		├── DT_COD1.txt
+│		    │		├── DT_COD2.txt
+│		    │		├── DT_CTRL.txt
+│		    │		├── DT_MIX1.txt
+│		    │		├── DT_MIX2.txt
+│		    │		├── DT_NCOD.txt
+│		    │		└── DT_RAND.txt
+│		    ├── health_dataset.yaml
+│		    ├── numba_dataset
+│		    │		├── NB_COD1.txt
+│		    │		├── NB_COD2.txt
+│		    │		├── NB_CTRL.txt
+│		    │		├── NB_MIX1.txt
+│		    │		├── NB_MIX2.txt
+│		    │		├── NB_NCOD.txt
+│		    │		└── NB_RAND.txt
+│		    ├── numba_dataset.yaml
+│		    ├── partialleasesquares_dataset
+│		    │		├── PLS_COD1.txt
+│		    │		├── PLS_COD2.txt
+│		    │		├── PLS_CTRL.txt
+│		    │		├── PLS_MIX1.txt
+│		    │		├── PLS_MIX2.txt
+│		    │		├── PLS_NCOD.txt
+│		    │		└── PLS_RAND.txt
+│		    ├── partialleasesquares_dataset.yaml
+│		    ├── satellite_dataset.yaml
+│		    └── svm_dataset
+│		        ├── SVM_COD1_out.txt
+│		        ├── SVM_COD1.txt
+│		        ├── SVM_COD2_out.txt
+│		        ├── SVM_COD2.txt
+│		        ├── SVM_CTRL_out.txt
+│		        ├── SVM_CTRL.txt
+│		        ├── SVM_MIX1_out.txt
+│		        ├── SVM_MIX1.txt
+│		        ├── SVM_MIX2_out.txt
+│		        ├── SVM_MIX2.txt
+│		        ├── SVM_NCOD_out.txt
+│		        ├── SVM_NCOD.txt
+│		        ├── SVM_RAND_out.txt
+│		        └── SVM_RAND.txt
+├── CHANGELOG.md
+├── CITATION.cff
+├── clean.sh
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── DESIGN.md
+├── Dockerfile
+├── docs
+│		├── build
+│		├── make.bat
+│		├── Makefile
+│		└── source
+│		    ├── _glam
+│		    │		├── emoji_creator.py
+│		    │		└── emoji.tsv
+│		    ├── _static
+│		    │		└── gsus_logo.png
+│		    ├── _templates
+│		    ├── api
+│		    ├── cli
+│		    │		├── cli_examples.rst
+│		    │		├── cli_overview.rst
+│		    │		├── cli_pipelines.rst
+│		    │		└── cli_plots
+│		    ├── conf.py
+│		    ├── development
+│		    │		├── docstrings.rst
+│		    │		├── literature_search_strategy.rst
+│		    │		├── module_example.rst
+│		    │		├── overview.rst
+│		    │		├── philosophy.rst
+│		    │		└── style_guidelines.rst
+│		    ├── gui
+│		    │		├── gui_examples.rst
+│		    │		├── gui_overview.rst
+│		    │		├── gui_pipelines.rst
+│		    │		└── gui_screenshots
+│		    ├── index.rst
+│		    ├── modules
+│		    │		├── annotate.rst
+│		    │		├── cab.rst
+│		    │		├── cli.rst
+│		    │		├── compat.rst
+│		    │		├── configs.rst
+│		    │		├── core.rst
+│		    │		├── gui.rst
+│		    │		├── io.rst
+│		    │		├── metrics.rst
+│		    │		├── models.rst
+│		    │		├── registry.rst
+│		    │		├── settings.rst
+│		    │		├── structures.rst
+│		    │		├── typing.rst
+│		    │		├── utils.rst
+│		    │		└── viz.rst
+│		    ├── rst_creator.py
+│		    ├── scripts.rst
+│		    ├── supplement
+│		    │		├── changelog.rst
+│		    │		├── contributing.rst
+│		    │		└── license.rst
+│		    ├── usage
+│		    │		├── batch_pipelines.rst
+│		    │		├── comparison_studies.rst
+│		    │		├── data_formats.rst
+│		    │		├── faq.rst
+│		    │		├── installation.rst
+│		    │		├── modules_overview.rst
+│		    │		├── quickstart.rst
+│		    │		├── references.rst
+│		    │		└── usage_overview.rst
+│		    └── usage.md
+├── environment.yaml
+├── LICENSE
+├── Makefile
+├── MANIFEST.in
+├── noxfile.py
+├── pyproject.toml
+├── pyrightconfig.json
+├── README.md
+├── repo.txt
+├── requirements-dev.txt
+├── requirements.txt
+├── ruff.toml
+├── SECURITY.md
+├── setup
+│		├── dev-requirements.txt
+│		├── environment.yaml
+│		└── hooks
+│		    └── post_checkout.sh
+├── setup.cfg
+├── setup.py
+├── src
+│		└── wildlife
+│		    ├── __about__.py
+│		    ├── __init__.py
+│		    ├── __main__.py
+│		    ├── _version.py
+│		    └── imputation
+│		        ├── __init__.py
+│		        ├── _base.py
+│		        ├── _iterative.py
+│		        └── _knn.py
+├── STYLE_GUIDE.md
+├── tests
+│		├── __init__.py
+│		├── test_cli
+│		│		├── test_annotate.py
+│		│		├── test_call_structures.py
+│		│		├── test_main.py
+│		│		├── test_metrics.py
+│		│		├── test_model.py
+│		│		├── test_parse.py
+│		│		└── test_visualize.py
+│		├── test_core
+│		│		├── test_base.py
+│		│		├── test_config.py
+│		│		├── test_enums.py
+│		│		├── test_exceptions.py
+│		│		├── test_logging.py
+│		│		├── test_losses.py
+│		│		├── test_metrics.py
+│		│		├── test_paths.py
+│		│		├── test_registry.py
+│		│		├── test_schedulers.py
+│		│		└── test_typing.py
+│		├── test_distributions
+│		│		├── test_compartments.py
+│		│		├── test_dynamics.py
+│		│		├── test_loops.py
+│		│		├── test_multi_resolution.py
+│		│		├── test_phase_domains.py
+│		│		├── test_sc_structure.py
+│		│		└── test_tads.py
+│		├── test_imputation
+│		│		├── test_base.py
+│		│		├── test_common.py
+│		│		├── test_impute.py
+│		│		└── test_knn.py
+│		├── test_statistics
+│		│		├── test_cab_finder.py
+│		│		├── test_dynamic_score.py
+│		│		├── test_entropy.py
+│		│		├── test_reproducibility.py
+│		│		├── test_similarity.py
+│		│		└── test_statistical_tests.py
+│		├── test_utils
+│		│		├── test_config.py
+│		│		├── test_decorators.py
+│		│		├── test_env.py
+│		│		├── test_file_utils.py
+│		│		├── test_io_utils.py
+│		│		├── test_masks.py
+│		│		├── test_metrics_helpers.py
+│		│		├── test_ops.py
+│		│		├── test_parallel.py
+│		│		├── test_profiling.py
+│		│		├── test_schema.py
+│		│		├── test_seed.py
+│		│		├── test_serialization.py
+│		│		├── test_settings.py
+│		│		├── test_timings.py
+│		│		└── test_transforms.py
+│		└── test_viz
+│		    ├── test_arcplot.py
+│		    ├── test_basic.py
+│		    ├── test_confusion.py
+│		    ├── test_density.py
+│		    ├── test_dynamics_plot.py
+│		    ├── test_genome_browser.py
+│		    ├── test_grad_cam.py
+│		    ├── test_heatmaps.py
+│		    ├── test_meta_gene.py
+│		    ├── test_pr_roc_curves.py
+│		    ├── test_tensorboard.py
+│		    └── test_umap_embedding.py
+├── tox.ini
+├── tree.txt
+├── treecloc.sh
+├── util.sh
+├── uv.lock
+└── VERSION

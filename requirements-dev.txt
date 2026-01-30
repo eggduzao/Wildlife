@@ -1,0 +1,95 @@
+#####################################################################################
+# Phenoteka — requirements-dev.txt
+# Purpose:
+#   Superset of requirements.txt, adding all tooling for development,
+#   testing, continuous integration, linting, and documentation building.
+#
+# Policy:
+#   • Keep all `requirements.txt` entries at the top for clarity.
+#   • Group extras logically: Jupyter, Dev tools, Testing, Docs, Data viz tools.
+#   • Ensure the dev environment can build docs, run full test suite,
+#     and explore datasets interactively.
+#####################################################################################
+
+# -----------------------------------------------------------------------------------
+# Runtime dependencies (copied from requirements.txt)
+# -----------------------------------------------------------------------------------
+# numpy>=1.26
+# scipy>=1.11 
+# pandas>=2.1 
+# dash>=2.14
+# inherit runtime mins; constraints will pin exact versions
+matplotlib>=3.8 
+seaborn>=0.13
+plotly>=5.22
+# -----------------------
+Unidecode>=1.4.0
+openpyxl>=3.1.5
+PyYAML>=6.0.2
+scikit-learn>=1.5.0
+# torch>=2.7.1
+rapidfuzz>=3.13.0
+requests>=2.32.3
+tqdm>=4.66.4
+
+# -----------------------------------------------------------------------------------
+# Interactive notebooks & exploratory analysis
+# -----------------------------------------------------------------------------------
+jupyterlab>=4.3.5
+jupyterlab_widgets>=3.0.13
+nbclient>=0.10.2
+nbconvert>=7.16.6
+nbformat>=5.10.4
+
+# -----------------------------------------------------------------------------------
+# Development tooling (linting, formatting, automation)
+# -----------------------------------------------------------------------------------
+black>=25.1.0          # Opinionated code formatter
+flake8>=7.2.0          # Python style guide enforcement
+isort>=6.0.1           # Sort imports
+pre-commit>=4.2.0      # Git hooks for auto-format/lint
+bump2version>=1.0.1    # Version bump automation
+mypy>=1.15.0           # Static type checking
+tox>=4.25.0            # Multi-env testing automation
+pylint>=3.3.6          # Code quality & style checker
+
+# -----------------------------------------------------------------------------------
+# Testing & coverage
+# -----------------------------------------------------------------------------------
+pytest>=8.3.5
+pytest-cov>=6.1.1
+coverage>=7.8.0
+hypothesis>=6.130.4    # Property-based testing
+faker>=37.1.0          # Fake data generator
+responses>=0.25.7      # Mock HTTP responses
+tomli>=2.2.1           # TOML parser (Python <3.11 compat)
+tomli_w>=1.2.0         # TOML writer
+tomlkit>=0.12.0        # TOML read/write with comments
+
+# -----------------------------------------------------------------------------------
+# Documentation stack (Sphinx-based)
+# -----------------------------------------------------------------------------------
+sphinx>=7.3.7
+pydata-sphinx-theme>=0.15.4     # Preferred theme for Phenoteka docs
+sphinx-autodoc-typehints>=2.1.1
+sphinxcontrib-htmlhelp>=2.0.0
+sphinxcontrib-serializinghtml>=1.1.0
+sphinxcontrib-jquery>=4.0.0
+sphinx-copybutton>=0.5.2
+sphinx-togglebutton>=0.3.2
+sphinx-jinja>=2.0.2
+myst-parser>=3.0.1
+nbsphinx>=0.9.4
+mkdocs>=1.6.0                   # Optional secondary doc system
+mkdocs-material>=9.6.0
+SciencePlots>=2.1.1
+
+# -----------------------------------------------------------------------------------
+# Data exploration & profiling (optional, but powerful for phenotype work)
+# -----------------------------------------------------------------------------------
+great-expectations==1.5.8
+ydata-profiling==4.16.1
+sweetviz==2.3.1
+numba==0.61.0
+# dtale==3.18.2
+# autoviz==0.1.806

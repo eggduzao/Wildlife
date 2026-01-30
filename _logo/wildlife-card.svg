@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Editable < chevron with a rounded inner space via masking.
+     Knobs:
+       - GAP: thickness of inner gap (stroke-width)
+       - TOP_Y / BOT_Y: vertical span (height) of the chevron
+       - FILL: color of the chevron
+-->
+
+<svg
+   viewBox="0 0 1280 640"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="wildlife-card.svg"
+   width="1280"
+   height="640"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   inkscape:export-filename="syzygy-card.png"
+   inkscape:export-xdpi="95.949997"
+   inkscape:export-ydpi="95.949997"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview2"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="0.57172202"
+   inkscape:cx="535.22514"
+   inkscape:cy="388.30059"
+   inkscape:window-width="1680"
+   inkscape:window-height="1027"
+   inkscape:window-x="47"
+   inkscape:window-y="34"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg2"
+   showguides="true"
+   inkscape:document-units="pt">
+  <sodipodi:guide
+     position="53.340904,395.55586"
+     orientation="1,0"
+     id="guide1"
+     inkscape:locked="false" />
+  <sodipodi:guide
+     position="-52.845457,586.71416"
+     orientation="0,-1"
+     id="guide2"
+     inkscape:locked="false" />
+  <sodipodi:guide
+     position="1227.5678,358.64504"
+     orientation="1,0"
+     id="guide3"
+     inkscape:locked="false" />
+  <sodipodi:guide
+     position="1184.5581,52.2011"
+     orientation="0,-1"
+     id="guide4"
+     inkscape:locked="false" />
+</sodipodi:namedview>
+<!-- ====== PARAMETERS (edit these) ====== -->
+<!-- Inner gap thickness (in px). Try 140..240 -->
+<g
+   id="params"
+   data-GAP="180"
+   data-TOP_Y="160"
+   data-BOT_Y="864"
+   data-FILL="#000000"
+   transform="matrix(1.78,0,0,1.78,-530.13907,-668.81113)"
+   style="stroke-width:0.561798" />
+<!-- Read the values via JS if you want, but for simplicity just edit the numbers below too. -->
+<!-- ====== CONFIG (manually set from params above) ====== -->
+<!-- GAP: controls how wide the inner hollow is -->
+<!-- TOP_Y / BOT_Y: change these to make the shape taller/shorter -->
+<!-- FILL: color of the outer chevron -->
+<defs
+   id="defs1">
+  <style
+     id="style1">&#10;      /* Not required; kept for readability */&#10;    </style>
+  <!-- Mask that carves out the rounded inner gap using a stroked polyline -->
+  <mask
+     id="innerCut"><!-- Start fully visible -->
+<rect
+   width="1024"
+   height="1024"
+   fill="#ffffff"
+   id="rect1"
+   x="0"
+   y="0" />
+<!-- Draw the centerline of the chevron in BLACK; black = "cut out" -->
+<!-- Points: left-center -> top-right -> bottom-right -->
+<!-- Adjust TOP_Y and BOT_Y, and stroke-width for GAP -->
+<polyline
+   id="centerline"
+   points="256,512  704,160  704,864"
+   fill="none"
+   stroke="#000000"
+   stroke-width="180" />
+<!-- GAP -->
+&#10;&#10;&#10;&#10;&#10;        stroke-linecap=&quot;round&quot;&#10;        stroke-linejoin=&quot;round&quot;/&gt;&#10;    </mask>
+</defs>
+<!-- OPTIONAL background to see the hole; delete if not needed -->
+<!-- Outer chevron wedge (sharp outside) -->
+<!-- Edit TOP_Y and BOT_Y here to change height -->
+<!-- FILL -->
+&#10;&#10;&#10;&#10;&#10;        mask=&quot;url(#innerCut)&quot;/&gt;&#10;<g
+   id="g8">
+  <rect
+     style="fill:#333333;fill-opacity:1;stroke:#333333;stroke-width:0.999996;stroke-linecap:square;stroke-dasharray:none"
+     id="rect4"
+     width="1279"
+     height="639"
+     x="0.50416088"
+     y="0.50411797"
+     rx="0"
+     ry="0" />
+  <text
+     xml:space="preserve"
+     style="font-weight:600;font-size:96px;line-height:1;font-family:Montserrat;-inkscape-font-specification:'Montserrat Semi-Bold';text-align:center;letter-spacing:-1px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke:#e6e6e6;stroke-width:1;stroke-dasharray:none"
+     x="786.05847"
+     y="148.15384"
+     id="text4"><tspan
+       sodipodi:role="line"
+       id="tspan4"
+       x="785.55847"
+       y="148.15384"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#e6e6e6;stroke:#e6e6e6">Wildlife</tspan></text>
+  <g
+     id="g4"
+     transform="translate(12,-42)">
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:64px;line-height:1;font-family:Montserrat;-inkscape-font-specification:'Montserrat Semi-Bold';text-align:center;letter-spacing:-2px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke:#e6e6e6;stroke-width:1;stroke-dasharray:none"
+       x="772.37848"
+       y="287.31683"
+       id="text4-0"><tspan
+         sodipodi:role="line"
+         id="tspan4-8"
+         x="772.37848"
+         y="287.31683"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';letter-spacing:-2px;fill:#e6e6e6;stroke:#e6e6e6">Wide-range Imputation</tspan><tspan
+         sodipodi:role="line"
+         x="772.37848"
+         y="352.17435"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';letter-spacing:-2px;fill:#e6e6e6;stroke:#e6e6e6"
+         id="tspan1">using Latent Deep Learning</tspan><tspan
+         sodipodi:role="line"
+         x="771.37848"
+         y="417.03186"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';letter-spacing:-2px;fill:#e6e6e6;stroke:#e6e6e6"
+         id="tspan2">Inference &amp; Feature Estimation</tspan></text>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-weight:600;font-size:37.3333px;line-height:1.2;font-family:Montserrat;-inkscape-font-specification:'Montserrat Semi-Bold';text-align:center;letter-spacing:-1px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke:#e6e6e6;stroke-width:1;stroke-dasharray:none"
+     x="638.38416"
+     y="460.92227"
+     id="text4-0-4"><tspan
+       sodipodi:role="line"
+       x="638.38416"
+       y="460.92227"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.3333px;line-height:1.2;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#e6e6e6;stroke:#e6e6e6"
+       id="tspan6">A unified deep learning framework for high-performance</tspan><tspan
+       sodipodi:role="line"
+       x="638.38416"
+       y="506.22244"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.3333px;line-height:1.2;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#e6e6e6;stroke:#e6e6e6"
+       id="tspan7">multimodal data imputation, integrating neural operators for</tspan><tspan
+       sodipodi:role="line"
+       x="637.88416"
+       y="551.52264"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.3333px;line-height:1.2;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#e6e6e6;stroke:#e6e6e6"
+       id="tspan8"> tabular, EHR, imaging, audio, video, and biological datasets.</tspan></text>
+  <circle
+     style="fill:#e6e6e6;fill-opacity:1;stroke:#e6e6e6;stroke-width:0.999999;stroke-dasharray:none"
+     id="path4"
+     cx="210.35796"
+     cy="211.15611"
+     r="152.83333" />
+  <g
+     id="g2"
+     transform="matrix(0.19960866,0,0,0.1996092,108.15494,108.70609)"
+     style="stroke-width:5.0098">
+    <path
+       d="M 10.79661,0 1024.9405,0.23264 c 0,0 -668.2243,6.03267 -797.29607,170.22827 -129.07175,164.19574 22.86554,814.9455 22.86554,814.9455 z"
+       fill="#000000"
+       id="path2"
+       sodipodi:nodetypes="ccscc"
+       style="stroke-width:5.0098" />
+    <path
+       d="M 0,1024 2.54991,97.66091 C 60.03594,418.3875 127.94244,654.16267 234.61985,1023.8956 Z"
+       fill="#000000"
+       id="path2-0"
+       sodipodi:nodetypes="cccc"
+       style="fill:#b9561f;fill-opacity:1;stroke:#b9561f;stroke-width:5.0098;stroke-opacity:1" />
+    <text
+       id="text2"
+       x="602.79584"
+       y="780"
+       font-style="normal"
+       font-variant="normal"
+       font-weight="bold"
+       font-stretch="normal"
+       font-size="750px"
+       font-family="Ubuntu"
+       text-align="center"
+       text-anchor="middle"
+       fill="#b53a2d"
+       fill-opacity="1"
+       stroke="#b53a2d"
+       stroke-width="6.67971"
+       stroke-opacity="1"
+       style="font-size:730px;letter-spacing:-60px;fill:#b9561f;fill-opacity:1;stroke:#b9561f;stroke-opacity:1">Wl</text>
+  </g>
+</g>
+</svg>
