@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>2651</Count><RetMax>6</RetMax><RetStart>6</RetStart><IdList>
+<Id>11121077</Id>
+<Id>11121076</Id>
+<Id>11121075</Id>
+<Id>11121074</Id>
+<Id>11121073</Id>
+<Id>11121072</Id>
+</IdList><TranslationSet><Translation>     <From>PNAS[ta]</From>     <To>"Proc Natl Acad Sci U S A"[Journal:__jid7505876]</To>    </Translation></TranslationSet><QueryTranslation>"proc natl acad sci u s a"[Journal] AND "97"[Volume]</QueryTranslation></eSearchResult>

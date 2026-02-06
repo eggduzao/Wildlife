@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ePostResult PUBLIC "-//NLM//DTD epost 20090526//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20090526/epost.dtd"><ePostResult>
+	<ERROR>Empty ID list; Nothing to store</ERROR>
+	<ERROR>Some IDs have invalid value and were omitted. Maximum ID value 18446744073709551615</ERROR></ePostResult>

@@ -1,0 +1,29 @@
+# Dependencies for testing and development
+# File used by CI workflow
+
+## Building/Packaging
+setuptools
+wheel
+
+# Style (for RST linting)
+# Most style dependencies are handled by pre-commit.
+black==22.12.0
+
+## Coverage
+coverage
+
+## Testing
+numpy!=2.1.0
+matplotlib
+mmtf-python
+#MySQL testing disabled due to #3834:
+#mysqlclient
+#mysql-connector-python
+networkx
+igraph>=0.10.0
+rdflib
+reportlab
+scipy
+
+# Static type checking
+mypy

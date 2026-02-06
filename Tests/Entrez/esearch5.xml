@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>5</Count><RetMax>5</RetMax><RetStart>0</RetStart><IdList>
+<Id>6540636</Id>
+<Id>5830998</Id>
+<Id>4460425</Id>
+<Id>4466840</Id>
+<Id>3443459</Id>
+</IdList><TranslationSet><Translation>     <From>stem cells</From>     <To>"stem cells"[MeSH Terms] OR ("stem"[All Fields] AND "cells"[All Fields]) OR "stem cells"[All Fields]</To>    </Translation></TranslationSet><TranslationStack>   <TermSet>    <Term>"stem cells"[MeSH Terms]</Term>    <Field>MeSH Terms</Field>    <Count>109831</Count>    <Explode>Y</Explode>   </TermSet>   <TermSet>    <Term>"stem"[All Fields]</Term>    <Field>All Fields</Field>    <Count>1528859</Count>    <Explode>N</Explode>   </TermSet>   <TermSet>    <Term>"cells"[All Fields]</Term>    <Field>All Fields</Field>    <Count>5033502</Count>    <Explode>N</Explode>   </TermSet>   <OP>AND</OP>   <OP>GROUP</OP>   <OP>OR</OP>   <TermSet>    <Term>"stem cells"[All Fields]</Term>    <Field>All Fields</Field>    <Count>715386</Count>    <Explode>N</Explode>   </TermSet>   <OP>OR</OP>   <OP>GROUP</OP>   <TermSet>    <Term>hasabstract[All Fields]</Term>    <Field>All Fields</Field>    <Count>83</Count>    <Explode>N</Explode>   </TermSet>   <OP>AND</OP>  </TranslationStack><QueryTranslation>("stem cells"[MeSH Terms] OR ("stem"[All Fields] AND "cells"[All Fields]) OR "stem cells"[All Fields]) AND hasabstract[All Fields]</QueryTranslation></eSearchResult>

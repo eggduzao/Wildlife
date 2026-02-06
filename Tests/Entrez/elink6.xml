@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eLinkResult PUBLIC "-//NLM//DTD elink 20101123//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20101123/elink.dtd">
+<eLinkResult>
+
+<LinkSet><DbFrom>pubmed</DbFrom><IdUrlList><IdUrlSet>
+	<Id>12085856</Id>
+	<ObjUrl>
+		<Url>https://medlineplus.gov/coronaryarterybypasssurgery.html</Url>
+		<IconUrl>/corehtml/query/egifs/https:--medlineplus.gov-images-linkout_sm.gif</IconUrl>
+		<LinkName>Coronary Artery Bypass Surgery</LinkName>
+		<Category>Medical</Category>
+		<Attribute>free resource</Attribute>
+		<Provider>
+			<Name>MedlinePlus Health Information</Name>
+			<NameAbbr>MEDPLUS</NameAbbr>
+			<Id>3162</Id>
+		</Provider>
+	</ObjUrl>
+</IdUrlSet>
+<IdUrlSet>
+	<Id>12085853</Id>
+	<ObjUrl>
+		<Url>https://medlineplus.gov/exerciseandphysicalfitness.html</Url>
+		<IconUrl>/corehtml/query/egifs/https:--medlineplus.gov-images-linkout_sm.gif</IconUrl>
+		<LinkName>Exercise and Physical Fitness</LinkName>
+		<Category>Medical</Category>
+		<Attribute>free resource</Attribute>
+		<Provider>
+			<Name>MedlinePlus Health Information</Name>
+			<NameAbbr>MEDPLUS</NameAbbr>
+			<Id>3162</Id>
+		</Provider>
+	</ObjUrl>
+	<ObjUrl>
+		<Url>https://medlineplus.gov/exerciseandphysicalfitness.html</Url>
+		<IconUrl>/corehtml/query/egifs/https:--medlineplus.gov-images-linkout_sm.gif</IconUrl>
+		<LinkName>Exercise and Physical Fitness</LinkName>
+		<Category>Medical</Category>
+		<Attribute>free resource</Attribute>
+		<Provider>
+			<Name>MedlinePlus Consumer Health Information</Name>
+			<NameAbbr>medlineplus2</NameAbbr>
+			<Id>10405</Id>
+		</Provider>
+	</ObjUrl>
+</IdUrlSet>
+</IdUrlList></LinkSet>
+</eLinkResult>

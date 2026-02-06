@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eLinkResult PUBLIC "-//NLM//DTD elink 20101123//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20101123/elink.dtd">
+<eLinkResult>
+	<LinkSet>
+		<DbFrom>pubmed</DbFrom>
+		<IdCheckList>
+			<IdLinkSet>
+				<Id>12169658</Id>
+				<LinkInfo>
+					<DbTo>books</DbTo>
+					<LinkName>pubmed_books_refs</LinkName>
+					<MenuTag>Cited in Books</MenuTag>
+					<HtmlTag>Cited in Books</HtmlTag>
+					<Priority>185</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>cdd</DbTo>
+					<LinkName>pubmed_cdd</LinkName>
+					<MenuTag>Conserved Domain Links</MenuTag>
+					<HtmlTag>Conserved Domains</HtmlTag>
+					<Priority>130</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>gene</DbTo>
+					<LinkName>pubmed_gene</LinkName>
+					<MenuTag>Gene Links</MenuTag>
+					<HtmlTag>Gene</HtmlTag>
+					<Priority>128</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>geoprofiles</DbTo>
+					<LinkName>pubmed_geoprofiles</LinkName>
+					<MenuTag>GEO Profile Links</MenuTag>
+					<HtmlTag>GEO Profiles</HtmlTag>
+					<Priority>170</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>nuccore</DbTo>
+					<LinkName>pubmed_nuccore</LinkName>
+					<MenuTag>Nucleotide Links</MenuTag>
+					<HtmlTag>Nucleotide</HtmlTag>
+					<Priority>128</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>nuccore</DbTo>
+					<LinkName>pubmed_nuccore_refseq</LinkName>
+					<MenuTag>Nucleotide (RefSeq) Links</MenuTag>
+					<HtmlTag>Nucleotide (RefSeq)</HtmlTag>
+					<Priority>128</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>pmc</DbTo>
+					<LinkName>pubmed_pmc_refs</LinkName>
+					<MenuTag>Cited in PMC</MenuTag>
+					<HtmlTag>Cited in PMC</HtmlTag>
+					<Priority>180</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>protein</DbTo>
+					<LinkName>pubmed_protein</LinkName>
+					<MenuTag>Protein Links</MenuTag>
+					<HtmlTag>Protein</HtmlTag>
+					<Priority>140</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>protein</DbTo>
+					<LinkName>pubmed_protein_refseq</LinkName>
+					<MenuTag>Protein (RefSeq) Links</MenuTag>
+					<HtmlTag>Protein (RefSeq)</HtmlTag>
+					<Priority>128</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>pubmed</DbTo>
+					<LinkName>pubmed_pubmed</LinkName>
+					<MenuTag>Similar articles</MenuTag>
+					<HtmlTag>Similar articles</HtmlTag>
+					<Priority>1</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>pubmed</DbTo>
+					<LinkName>pubmed_pubmed_citedin</LinkName>
+					<MenuTag>Cited In</MenuTag>
+					<HtmlTag>Cited In</HtmlTag>
+					<Priority>128</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>pubmed</DbTo>
+					<LinkName>pubmed_pubmed_combined</LinkName>
+					<MenuTag>Combined set of related Articles and Reviews</MenuTag>
+					<HtmlTag>Combined set of related Articles and Reviews</HtmlTag>
+					<Priority>1</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>pubmed</DbTo>
+					<LinkName>pubmed_pubmed_five</LinkName>
+					<MenuTag>Five most related Articles</MenuTag>
+					<HtmlTag>Five most related Articles</HtmlTag>
+					<Priority>1</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>pubmed</DbTo>
+					<LinkName>pubmed_pubmed_reviews</LinkName>
+					<MenuTag>Related Articles by Review</MenuTag>
+					<HtmlTag>Related Articles by Review</HtmlTag>
+					<Priority>1</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>pubmed</DbTo>
+					<LinkName>pubmed_pubmed_reviews_five</LinkName>
+					<MenuTag>Five most related Articles by Review</MenuTag>
+					<HtmlTag>Five most related Articles by Review</HtmlTag>
+					<Priority>1</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>LinkOut</DbTo>
+					<LinkName>ExternalLink</LinkName>
+					<MenuTag>LinkOut</MenuTag>
+					<HtmlTag>LinkOut</HtmlTag>
+					<Priority>255</Priority>
+				</LinkInfo>
+			</IdLinkSet>
+			<IdLinkSet>
+				<Id>11748140</Id>
+				<LinkInfo>
+					<DbTo>books</DbTo>
+					<LinkName>pubmed_books_refs</LinkName>
+					<MenuTag>Cited in Books</MenuTag>
+					<HtmlTag>Cited in Books</HtmlTag>
+					<Priority>185</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>gene</DbTo>
+					<LinkName>pubmed_gene</LinkName>
+					<MenuTag>Gene Links</MenuTag>
+					<HtmlTag>Gene</HtmlTag>
+					<Priority>128</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>geoprofiles</DbTo>
+					<LinkName>pubmed_geoprofiles</LinkName>
+					<MenuTag>GEO Profile Links</MenuTag>
+					<HtmlTag>GEO Profiles</HtmlTag>
+					<Priority>170</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>nuccore</DbTo>
+					<LinkName>pubmed_nuccore</LinkName>
+					<MenuTag>Nucleotide Links</MenuTag>
+					<HtmlTag>Nucleotide</HtmlTag>
+					<Priority>128</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>nuccore</DbTo>
+					<LinkName>pubmed_nuccore_refseq</LinkName>
+					<MenuTag>Nucleotide (RefSeq) Links</MenuTag>
+					<HtmlTag>Nucleotide (RefSeq)</HtmlTag>
+					<Priority>128</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>pmc</DbTo>
+					<LinkName>pubmed_pmc_refs</LinkName>
+					<MenuTag>Cited in PMC</MenuTag>
+					<HtmlTag>Cited in PMC</HtmlTag>
+					<Priority>180</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>protein</DbTo>
+					<LinkName>pubmed_protein</LinkName>
+					<MenuTag>Protein Links</MenuTag>
+					<HtmlTag>Protein</HtmlTag>
+					<Priority>140</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>protein</DbTo>
+					<LinkName>pubmed_protein_refseq</LinkName>
+					<MenuTag>Protein (RefSeq) Links</MenuTag>
+					<HtmlTag>Protein (RefSeq)</HtmlTag>
+					<Priority>128</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>pubmed</DbTo>
+					<LinkName>pubmed_pubmed</LinkName>
+					<MenuTag>Similar articles</MenuTag>
+					<HtmlTag>Similar articles</HtmlTag>
+					<Priority>1</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>pubmed</DbTo>
+					<LinkName>pubmed_pubmed_citedin</LinkName>
+					<MenuTag>Cited In</MenuTag>
+					<HtmlTag>Cited In</HtmlTag>
+					<Priority>128</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>pubmed</DbTo>
+					<LinkName>pubmed_pubmed_combined</LinkName>
+					<MenuTag>Combined set of related Articles and Reviews</MenuTag>
+					<HtmlTag>Combined set of related Articles and Reviews</HtmlTag>
+					<Priority>1</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>pubmed</DbTo>
+					<LinkName>pubmed_pubmed_five</LinkName>
+					<MenuTag>Five most related Articles</MenuTag>
+					<HtmlTag>Five most related Articles</HtmlTag>
+					<Priority>1</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>pubmed</DbTo>
+					<LinkName>pubmed_pubmed_reviews</LinkName>
+					<MenuTag>Related Articles by Review</MenuTag>
+					<HtmlTag>Related Articles by Review</HtmlTag>
+					<Priority>1</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>pubmed</DbTo>
+					<LinkName>pubmed_pubmed_reviews_five</LinkName>
+					<MenuTag>Five most related Articles by Review</MenuTag>
+					<HtmlTag>Five most related Articles by Review</HtmlTag>
+					<Priority>1</Priority>
+				</LinkInfo>
+				<LinkInfo>
+					<DbTo>LinkOut</DbTo>
+					<LinkName>ExternalLink</LinkName>
+					<MenuTag>LinkOut</MenuTag>
+					<HtmlTag>LinkOut</HtmlTag>
+					<Priority>255</Priority>
+				</LinkInfo>
+			</IdLinkSet>
+		</IdCheckList>
+	</LinkSet>
+</eLinkResult>

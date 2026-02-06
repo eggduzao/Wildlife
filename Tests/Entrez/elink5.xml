@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eLinkResult PUBLIC "-//NLM//DTD elink 20101123//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20101123/elink.dtd">
+<eLinkResult>
+
+<LinkSet><DbFrom>pubmed</DbFrom><IdUrlList><IdUrlSet>
+	<Id>10611131</Id>
+	<ObjUrl>
+		<Url>https://academic.oup.com/brain/article-lookup/doi/10.1093/brain/123.1.171</Url>
+		<IconUrl>/corehtml/query/egifs/https:--academic.oup.com-images-oup_pubmed.png</IconUrl>
+
+		<Category>Full Text Sources</Category>
+		<Attribute>subscription/membership/fee required</Attribute>
+		<Provider>
+			<Name>Silverchair Information Systems</Name>
+			<NameAbbr>silverchair</NameAbbr>
+			<Id>7898</Id>
+		</Provider>
+	</ObjUrl>
+</IdUrlSet>
+</IdUrlList></LinkSet>
+</eLinkResult>
